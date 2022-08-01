@@ -70,7 +70,7 @@ header{
     height: 40px;
     padding-left: 10px;
     background-color:white;
-    border:none;
+    border:1px solid white;
 }
 .submit-con{
     display: flex;
