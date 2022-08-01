@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    padding-bottom: 30px;
+}
+header{
+    height: 630px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/netflix-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px solid #272727;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+.signin button{
+    height: 30px;
+    width: 60px;
+    margin-top: 25px;
+    background-color: #e50914;
+    border: #e50914;
+    border-radius: 3px;
+    color: white;
+}
+.header-body{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.main{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.submain{
+    font-size: 17px;
+    margin-top: 15px;
+}
+.question{
+    font-size: 17.2px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.email-search form{
+    display: block;
+}
+.email-con{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.email{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+.submit-con{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.submit{
+    width: 30%;
+    height: 40px;
+    background-color: #e50914;
+    border: #e50914;
+    border-radius: 3px;
+    color: white;
+}
+.submit i{
+    margin-left: 10px;
+}
+.enjoy, .download, .watch, .create, .frequent{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    border-bottom: 7px solid #272727;
+}
+.enjoy-head, .download-head, .watch-head, .create-head, .frequent-head{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.enjoy-content, .download-content, .watch-content, .create-content{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.img-con{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.img-con img{
+    z-index: 2;
+    width: 330px;
+    height: 245px;
+}
+.img-con-download{
+    position: relative;
+}
+.download-bar img{
+    margin-left: 15px;
+}
+.download-bar{
+    position: absolute;
+    top: 200px;
+    height: 60px;
+    width: 220px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 10px;
+    display: flex;
+    z-index: 3;
+}
+.title{
+     text-align: left;
+     margin-left: 10px;
+     margin-top: 5px;
+}
+.stranger{
+    font-size: 12px;
+    font-weight: bold;
+}
+.progress{
+    font-size: 11px;
+    color: rgb(12, 84, 250);
+    font-weight: 600;
+}
+.video video{
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.frequent-body-first{
+    margin-top:20px;
+}
+.frequent-body{
+    width: 100%;
+    background-color: #2b2b2b;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.frequent-body p{
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 10px;
+}
+.frequent-body i{
+    float: right;
+    margin-right: 10px;
+}
+.frequent-body-second{
+    margin-top: 5px;
+}
+.footer-head{
+    font-size: 15px;
+    color: #5c5c5c;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.footer-left{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.footer-left nav li{
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    list-style: none;
+    margin-top: 10px;
+    width: 40%;
+}
+.footer-left nav li a{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 13px;
+}
+/* .footer-right{
+    display: block;
+    float: right;
+    margin-top: -228px;
+    margin-right: 60px;
+}
+.footer-right nav li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer-right nav li a{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 13px;
+} */
+.footer-end{
+    color: #5c5c5c;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+@media (min-width: 500px) {
+    .email-con{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+@media (min-width: 600px) {
+    .top{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .email-con{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .enjoy-content, .download-content, .watch-content, .create-content{
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+    .img-con img{
+        width: 400px;
+        height: 300px;
+    }
+    .download-bar{
+        position: absolute;
+        top: 220px;
+    }
+    .footer-left nav li{
+        width: 25%;
+    }
+}
+@media (min-width: 750px){
+    .email-con{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .submit{
+        width: 20%;
+    }
+    .img-con img{
+        width: 450px;
+        height: 350px;
+    }
+    .download-bar{
+        position: absolute;
+        top: 270px;
+    }
+}
+@media (min-width: 1100px){
+    header{
+        height: 750px;
+    }
+    .top{
+        margin-top: -20px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo img{
+        width: 180px;
+        height:170px;
+    }
+    .signin button{
+        height:40px;
+        width: 80px;
+        margin-top: 60px;
+        font-size: 16px;
+    }
+    .header-body{
+        margin-top: 100px;
+    }
+    .main{
+        font-size: 60px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .submain{
+        font-size: 25px;
+    }
+    .question{
+        font-size: 19px;
+    }
+    .email-search{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .email-search form{
+        display:inline-flex;
+        width: 100%;
+    }
+    .email-con{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 70%;
+    }
+    .email{
+        width: 100%;
+        height: 70px;
+        padding-left: 10px;
+    }
+    .email::placeholder{
+        font-size: 16px;
+    }
+    .submit-con{
+        width: 30%;
+    }
+    .submit{
+        width: 100%;
+        height: 70px;
+        border-radius: 0px;
+        font-size: 22px;
+    }
+    .enjoy{
+        display: flex;
+        flex-direction: row;
+    }
+    .enjoy-main{
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+    .enjoy-head{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .enjoy-content{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .img-con-enjoy{
+       margin-left: -50px;
+    }
+    .img-con img{
+        width: 450px;
+        height: 300px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    .download-bar img{
+        margin-left: 5px;
+    }
+    .img-con-download{
+        position: relative;
+    }
+    .download-bar{
+        position: absolute;
+        top: 220px;
+        height: 60px;
+        width: 220px;
+        padding: 10px;
+    }
+    .title{
+         margin-left:-70px;
+    }
+    .download, .create{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .download-main{
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 160px;
+        margin-right: 150px;
+    }
+    .download-head{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .download-content{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+    .img-con-download{
+        width: 350px;
+        margin-right: 0px;
+    }
+    .watch{
+        display: flex;
+        flex-direction: row;
+    }
+    .watch-main{
+        text-align: left;
+        margin-left: 80px;
+        margin-right: 580px;
+    }
+    .watch-head{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .watch-content{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .create-main{
+        margin-top: 60px;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 80px;
+    }
+    .create-head{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .create-content{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+    .frequent{
+        height: 700px;
+    }
+    .frequent-content{
+        margin-right: 300px;
+        margin-left: 300px;
+    }
+    .frequent-body{
+        height: 60px;
+    }
+    .frequent-body p{
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .frequent-body-second{
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+    .footer-head{
+        margin-left: 80px;
+    }
+    .footer-left{
+        margin-left: 80px;
+    }
+    .footer-end{
+        margin-left: 80px;
+    }   
+    .footer-left nav li{
+        width: 20%;
+    }
+}
+@media (min-width: 1200px){
+    .enjoy-main{
+        margin-left: 120px;
+        margin-right: 100px;
+    }
+    .img-con img{
+        width: 450px;
+        height: 300px;
+        margin-right: 120px;
+        margin-left: 80px;
+    }
+    .download-bar img{
+        margin-left: 5px;
+    }
+    .img-con-download{
+        position: relative;
+    }
+    .download-bar{
+        position: absolute;
+        top: 220px;
+        height: 60px;
+        width: 220px;
+        margin-left: -40px;
+    }
+    .title{
+         margin-left:-110px;
+    }
+    .download-main{
+        margin-left: 180px;
+        margin-right: 160px;
+    }
+    .img-con-download{
+        width: 350px;
+        margin-left: 120px;
+        margin-right: 0px;
+    }
+    .watch-main{
+        text-align: left;
+        margin-left: 120px;
+        margin-right: 680px;
+    }
+    .create-main{
+        margin-left: 50px;
+        margin-right: 120px;
+    }
+    .create-head{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .create-content{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+}
+@media (min-width: 1400px){
+    .enjoy-main{
+        margin-left: 200px;
+        margin-right: 120px;
+    }
+    .img-con img{
+        width: 450px;
+        height: 300px;
+        margin-right: 200px;
+        margin-left: 80px;
+    }
+    .download-bar img{
+        margin-left: 5px;
+    }
+    .img-con-download{
+        position: relative;
+    }
+    .download-bar{
+        position: absolute;
+        top: 220px;
+        height: 60px;
+        width: 220px;
+        margin-left: -120px;
+    }
+    .title{
+        margin-left:-190px;
+    }
+    .download-main{
+        margin-left: 200px;
+        margin-right: 180px;
+    }
+    .download-head{
+        margin-right: 50px;
+    }
+    .download-content{
+        margin-right: 100px;
+    }
+    .img-con-download, .img-con-create{
+        width: 350px;
+        margin-left: 200px;
+        margin-right: 0px;
+    }
+    .watch-main{
+        text-align: left;
+        margin-left: 200px;
+        margin-right: 820px;
+    }
+    .create-main{
+        margin-left: 190px;
+        margin-right: 200px;
+    }
+    .create-head{
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .create-content{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 100px;
+    }
+}
+
